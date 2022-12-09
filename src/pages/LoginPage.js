@@ -5,8 +5,8 @@ import { setAuthToken } from '../component/setAuthen';
 class LoginPage extends React.Component {
 
     state = {
-        email: 'eve.holt@reqres.in',
-        password: 'cityslicka'
+        email: 'testEmail@gmail.com',
+        password: 'testpassword'
     }
 
     changeEmail = (event) => {
